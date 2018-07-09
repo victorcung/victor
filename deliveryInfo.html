@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HELP MED DELIVERY</title>
+<link rel='stylesheet' href='bit102Asgnmt.css'>
+</head>
+<body>
+<nav id="navdelivery">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="productpage.html">Products</a></li>
+      <li class="dropdown"><a href="cartpage.html" class="dropbtn">
+	  Cart</a>
+	  <div class="dropdown-content">
+	  <a class="active" href ="deliveryInfo.html">Delivery Information</a>
+	  <a href="confirmation.html">Order Confirmation</a>
+	  </div>
+	  </li>
+      <li class="dropdown"><a href="customerInfo.html" class="dropbtn">Account</a>
+	  <div class="dropdown-content">
+	  <a href="orders.html">Orders</a>
+	  </div>
+	  </li>
+	  <li><a href="support.html">Customer Support</a></li>
+	  <li><a href="contact.html">Contact Us</a></li>
+	</ul>
+  </nav>
+	
+	
+
+
+
+<form method="get" action="http://webdevbasics.net/scripts/demo.php" autocomplete="off">
+
+<fieldset id="delivery">
+<h1>Delivery Information</h1>
+<h3>Tell us where you want your products delivered!</h3>
+<hr>
+<h2>Customer Details</h2>
+<br>
+E-mail:  
+<input id="inputdelivery" type="email" name="email" tabindex="1"
+required placeholder="Enter your email" size="25" maxlength="10">
+<br>
+<br>
+
+Title: 
+<input list="title" id="inputdelivery" name="title" size="25" maxlength="10" required tabindex="2" 
+placeholder="Choose a name title.">
+<datalist id="title">
+	<option>Mr.</option>
+	<option>Mrs.</option>
+	<option>Miss</option>
+	<option>Ms</option>
+</datalist>
+<br>
+<br>
+
+Last Name: 
+<input id="inputdelivery" type="text" name="userName" id="userName" 
+size="25" maxlength="10" placeholder="Enter your last name" 
+required tabindex="3" >
+<br>
+<br>
+First Name:
+<input id="inputdelivery" type="text" name="userName" id="userName" 
+size="25" maxlength="10" placeholder="Enter your first name" 
+required tabindex="4" >
+<br>
+<br>
+
+Age: 
+<input list="age" id="inputdelivery" name="age" required tabindex="5" size="25" maxlength="10" 
+placeholder="Choose an age group.">
+<datalist id="age">
+	<option>60 years and above</option>
+	<option>30 to 59 years old</option>
+	<option>18 to 29 years old</option>
+	<option>17 years and below</option>
+</datalist>
+<br>
+<br>
+
+Address 1: <input id="inputdelivery" type="text" name="addressOne" size="25" maxlength="10" placeholder="Enter your address"
+required tabindex="6">
+<br>
+<br>
+
+Address 2: <input id="inputdelivery" type="text" name="addressTwo" size="25" maxlength="10" tabindex="7">
+<br>
+<br>
+State: <input id="inputdelivery" type="text" name="state" size="25" maxlength="10" placeholder="Enter your state" 
+required tabindex="8">
+<br>
+<br>
+
+Postal Code: <input id="inputdelivery" size="25" maxlength="10" type="text" pattern=".{6,}" autofocus 
+placeholder="Enter your postal code" required tabindex="9">
+
+<br>
+
+
+</fieldset>
+
+
+<fieldset id="delivery">
+<h2>Choose the categories you would like to shop</h2>
+
+<h4><input type="checkbox" name="category" value="medicines" checked tabindex="10">
+Medicines</h4>
+<h4><input type="checkbox" name="category" value="vitamins" tabindex="11">
+Vitamins & Supplements</h4>
+<h4><input type="checkbox" name="category" value="health" tabindex="12">
+Health & First Aids</h4>
+<h2>Choose your favorite pharmacies</h2>
+<br>
+<h4><input type="checkbox" name="pharmacy" value="Guardian" checked tabindex="13">
+Guardian</h4>
+<h4><input type="checkbox" name="pharmacy" value="Watsons" tabindex="14">
+Watsons</h4>
+<h4><input type="checkbox" name="pharmacy" value="Caring" tabindex="15">
+Caring Pharmacy</h4><br>
+<input type="hidden">
+<a href="productpage.html"><button type="button" tabindex="16"><h3>Start Shopping</h3></button></a>
+</fieldset>
+
+</form>
+<hr>
+  <footer>
+      <figure id="logo2">
+          <a href="home.html"><img src="BITlogo.png" width="160" height="80" alt="picture"></a>
+        </figure> 
+    <h4>
+      <a href="support.html">FAQs</a>
+      <a href="support.html">Privacy Policy</a>
+      <a href="support.html">Terms and Conditions</a>
+      <a href="deliveryInfo.html">Delivery Information</a>
+      <a href="support.html">Return Policy</a>
+    </h4>
+
+    <h4>
+        <a href="home.html">Home</a>
+        <a href="support.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+
+    </h4>
+    <h4>
+      <img src="whatapp.png" width="40" height="40"><a href="tel:(02) 9389 0202">(02) 9389 0202</a>
+    </h4> 
+    Copyright &copy; 2018                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+  </footer>
+</div>
+</body>
+</html>
